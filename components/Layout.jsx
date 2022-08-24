@@ -1,7 +1,22 @@
 import React from "react";
-
-const Layout = () => {
-  return <div>Layout</div>;
+import Head from "next/head";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+const Layout = ({ children }) => {
+  return (
+    <div className="layout">
+      <Head>
+        <title>Sai Digital Store</title>
+      </Head>
+      <header>
+        <NavBar />
+      </header>
+      <main className="main-container">{children}</main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
+  );
 };
 
 export default Layout;
