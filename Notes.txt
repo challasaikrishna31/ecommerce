@@ -1,9 +1,0 @@
-/**Sanity**/
-sanity docs
-sanity manage
-go to D:\Training\React\ecommerce\ecommerce\sanity_ecommerce>
-sanity start
-
-**Stripe***
-strip dashboard
-dummy card number-
